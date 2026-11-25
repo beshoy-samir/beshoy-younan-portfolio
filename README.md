@@ -7,7 +7,7 @@ A responsive, static portfolio in navy, slate, blue and teal. Open `index.html` 
 - Career timeline, technical skill tiers, leadership, 12 sanitized project areas, credentials, education and contact links.
 - Keyboard-accessible project filters and native expandable project/experience details.
 - Dark/light themes, reduced-motion support and a print layout. Use **Print / save profile as PDF** and select your browser's Save as PDF destination.
-- No database, authentication, contact backend, analytics, trackers or external runtime dependencies. Contact buttons open Outlook web compose drafts, with a Gmail alternative; no default desktop email handler is needed. Visitors review and send their own messages.
+- No database, authentication or contact backend. Cloudflare Web Analytics records aggregate traffic and performance through its public JavaScript beacon. Contact buttons open Outlook web compose drafts, with a Gmail alternative; no default desktop email handler is needed. Visitors review and send their own messages.
 
 ## Content provenance and limits
 
@@ -30,3 +30,12 @@ Public site: https://beshoy-younan-portfolio.eng-beshoy-samir.workers.dev/
 Cloudflare deployment uses a snapshot of the static files through the connected Cloudflare API. GitHub updates do not automatically redeploy. The deployed Worker serves only an explicit allowlist of website files. README, source-control files and deployment helpers are not exposed. Open Graph and canonical metadata use the public URL. The SVG social image may not be supported by every sharing platform.
 
 All rights reserved. No open-source license was selected.
+
+
+## LinkedIn visit counts
+
+Use https://beshoy-samir.github.io/beshoy-younan-portfolio/linkedin/ exclusively in LinkedIn Featured. This serves the full portfolio directly, without a redirect. Filter Cloudflare Web Analytics by Path `/beshoy-younan-portfolio/linkedin/` to count loads through this link. Count page views as approximate hits; they are not unique people and may include reloads and setup tests. Browser blockers may suppress analytics. Sharing the dedicated link elsewhere also attributes those loads to this campaign. Counts start after installation, not retroactively.
+
+Dashboard: https://dash.cloudflare.com/52b38600322ddc15dd7bba5359e7145a/web-analytics/overview?siteTag~in=4bc01a4dd53e4bccac72f3db83a389e4
+
+The public site token is an ingestion identifier, not a private API credential. There is no public visitor counter. Root and LinkedIn pages should be kept in sync when editing content.
