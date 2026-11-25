@@ -7,7 +7,7 @@ A responsive, static portfolio in navy, slate, blue and teal. Open `index.html` 
 - Career timeline, technical skill tiers, leadership, 12 sanitized project areas, credentials, education and contact links.
 - Keyboard-accessible project filters and native expandable project/experience details.
 - Dark/light themes, reduced-motion support and a print layout. Use **Print / save profile as PDF** and select your browser's Save as PDF destination.
-- No database, authentication, contact backend, analytics, trackers or external runtime dependencies. Email links open the visitor's own email application.
+- No database, authentication, contact backend, analytics, trackers or external runtime dependencies. Contact buttons open Outlook web compose drafts, with a Gmail alternative; no default desktop email handler is needed. Visitors review and send their own messages.
 
 ## Content provenance and limits
 
@@ -23,8 +23,10 @@ Edit content in `index.html`, presentation in `styles.css`, and theme/filter/pri
 
 ## Sharing and hosting
 
-This repository must remain **private**. GitHub Pages and other public deployments have not been requested or configured. Repository privacy does not make a later deployment private automatically.
+This repository must remain **private**. The user has authorized public Cloudflare hosting. The source repository stays private; the portfolio is publicly accessible. GitHub Pages is not enabled.
 
-Open Graph text and a local SVG preview are included. Before a future authorized deployment, set a canonical URL and absolute Open Graph image URL and provide a PNG/JPEG social image for platforms that do not support SVG previews. There is intentionally no production URL in this package.
+Public site: https://beshoy-younan-portfolio.eng-beshoy-samir.workers.dev/
+
+Cloudflare deployment uses a snapshot of the static files through the connected Cloudflare API. GitHub updates do not automatically redeploy. The deployed Worker serves only an explicit allowlist of website files. README, source-control files and deployment helpers are not exposed. Open Graph and canonical metadata use the public URL. The SVG social image may not be supported by every sharing platform.
 
 All rights reserved. No open-source license was selected.
