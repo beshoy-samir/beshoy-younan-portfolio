@@ -11,7 +11,7 @@ A responsive, static portfolio in navy, slate, blue and teal. Open `index.html` 
 
 ## Content provenance and limits
 
-Content follows the supplied professional website brief in the referenced “Daily Job Apply” conversation. The original CV and portrait were not present in the retrievable reference. No portrait or CV was fabricated. The downloadable original CV can be added later, once supplied.
+Content follows the supplied professional website brief in the referenced “Daily Job Apply” conversation. The portrait was supplied by Beshoy and is used unchanged. The original CV was not present in the retrievable reference; no CV was fabricated. The downloadable original CV can be added later, once supplied.
 
 The referenced project list included activities requiring confirmation. Project cards therefore describe sanitized scope and contribution focus, without asserting successful incident resolutions, customer names, confidential topology or numerical outcomes. Core skills, operational support and supporting/foundational knowledge are separated conservatively; skill levels should be checked against the original CV before any public launch. Certification validity, dates and IDs are not asserted. Red Hat is labeled training, not certification.
 
@@ -23,7 +23,7 @@ Edit content in `index.html`, presentation in `styles.css`, and theme/filter/pri
 
 ## Sharing and hosting
 
-This repository must remain **private**. The user has authorized public Cloudflare hosting. The source repository stays private; the portfolio is publicly accessible. GitHub Pages is not enabled.
+The user has authorized this repository to be **public**. The user has authorized public Cloudflare hosting. The source repository and the portfolio are publicly accessible. GitHub Pages publishes the main branch at https://beshoy-samir.github.io/beshoy-younan-portfolio/.
 
 Public site: https://beshoy-younan-portfolio.eng-beshoy-samir.workers.dev/
 
